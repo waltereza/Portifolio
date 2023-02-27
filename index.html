@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/index.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+    
+    <title>Portifolio V. Neto</title>
+</head>
+<body>
+    <header>
+        <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+       </ul>
+        <p id="titulo"></p>
+    </header>
+
+    <div id="sobre">
+        <img class="eu" src="/src/images/eu.jpg" alt="eu"> 
+        <h1>Olá, aqui você verá um pouco sobre minha pessoa.</h1>
+        <p>Me chamo <b class="name">Walter Vieira Neto</b>, tenho 21 anos e sou apaixonado pelo mundo da computação e programação, meu primeiro contato com a programação ocorreu aos meus 16 anos, quando comecei a me interessar no desenvolvimento de aplicações Desktop, ao me aprimorar nessa area notei que o futuro estava na <b>Web</b> e, voltei meus esforços para ela, buscando cursos sobre <b>HTML, CSS e JavaScript</b>. Mas meu contato com uma linguagem Back-End foi diretamente com <b>PHP</b>, a qual ainda tenho certo apego, mas isso não impossibilita que eu aprenda novas linguagens como estou aprendendo cada dia mais sobre o <b>ecosistema JavaScript</b>.</p>
+    </div>
+
+    <div class="contato">
+        <h1>Veja um pouco mais sobre mim:</h1>
+        <a class="linkedin" href="https://www.linkedin.com/in/walter-vieira-neto-293aab1b1/"> <img class="link-edin" src="/src/images/linkedin.png" alt=""> Linkedin</a>
+        <a class="github" href="https://github.com/waltereza"> <img class="git-hub" src="/src/images/github.png" alt=""> GitHub</a>
+
+    </div>
+
+    <div id="experiencia">
+        <h1>Aqui conto um pouco das ferramentas web que utilizo</h1>
+        <div class="imagens">
+        <img id="ht" src="/src/images/html.png" alt="html" onmouseover="mostrarTexto(0)" onmouseout="esconderTexto()">
+        <img id="css"  src="/src/images/css.png" alt="css" onmouseover="mostrarTexto(1)" onmouseout="esconderTexto()">
+        <img id="js"  src="/src/images/js.png" alt="js" onmouseover="mostrarTexto(2)" onmouseout="esconderTexto()">
+        <img id="bulma" src="/src/images/bulma.png" alt="bulma" onmouseover="mostrarTexto(3)" onmouseout="esconderTexto()">
+        <img id="php"  src="/src/images/php.png" alt="php" onmouseover="mostrarTexto(4)" onmouseout="esconderTexto()">
+        <img id="nodeJs" src="/src/images/nodejs.png" alt="node" onmouseover="mostrarTexto(5)" onmouseout="esconderTexto()">
+    </div>
+        <div id="tooltip"></div>
+    </div>
+
+    <div  id="projetos">
+        <h1>Aqui você pode ver meus projetos concluidos ou em andamento</h1>
+
+        <div class="proj">
+        <div class="projeto0"><h2>Em Breve</h2></div>
+        <div class="projeto1"><h2>Em Breve</h2></div>
+        <div class="projeto2"><h2>Em Breve</h2></div>
+        </div>
+    </div>
+
+<footer>
+    <h1>Desenvolvido por Walter V. Neto</h1>
+</footer>
+<script type="text/javascript" src="/src/scripts/script.js"></script>
+</body>
+</html>

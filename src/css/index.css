@@ -1,0 +1,210 @@
+* {
+    font-family:'Poppins', sans-serif;
+}
+
+html, body {
+    background-color: #444654;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #444654;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #46e880;
+  border-radius: 10px;
+}
+
+#sobre{
+    margin: 30px auto;
+    margin-bottom: 5px;
+    width: 80%;
+    background-color: #131327;
+    border-radius: 20px;
+    box-shadow: 0 0 0.5rem;
+    padding: 20px;
+}
+
+#sobre h1{
+    color: #46e880;
+    font-size: 18px;
+}
+
+#sobre p{
+    color: aliceblue;
+    padding: 5px;
+    margin: 10px;
+}
+
+#sobre b {
+    color: #46e880;
+}
+
+
+.eu {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 0 0 0.5rem;
+    color: #46e880;
+    margin: 20px;
+}
+
+.contato{
+    margin: 20px auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.contato h1{
+    font-size: 16px;
+    color: #46e880;
+    padding: 10px;
+}
+
+.contato a{
+    border-radius: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    border-style:solid;
+    align-items:center;
+    justify-content: center;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline;
+}
+
+
+.linkedin {
+    padding: 10px;
+    height: 30px;
+    width: 50px;
+    border-color: #0075b7;
+    box-shadow: 0 0 0.5rem #0075b7;
+    color: #00bb67;
+}
+
+.linkedin:hover {
+    box-shadow: 0 0 2rem #0075b7;
+  }
+
+.link-edin{
+    width: 20px;
+    height: 20px;
+}
+
+.github {
+    padding: 10px;
+    height: 30px;
+    width: 50px;
+    border-color:#ffff;
+    box-shadow: 0 0 0.5rem #ffff;
+    color: #00bb67;
+}
+
+.github:hover {
+    box-shadow: 0 0 2rem #ffff;
+  }
+
+.git-hub{
+    width: 20px;
+    height: 20px;
+}
+
+
+#experiencia {
+    background-color: #131327;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    margin: 60px auto;
+    box-shadow: 0 0 0.5rem;
+    overflow: auto;
+}
+
+.imagens, #tooltip {
+   float: left;
+   width: 50%;
+}
+
+#experiencia h1{
+    align-items: center;
+    text-align: center;
+    color: #46e880;
+    font-size: 20px;
+}
+
+#ht, #css, #js, #bulma, #php, #nodeJs{
+    width: 120px;
+    height: 120px;
+    background-color: #444654;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#ht:hover , #css:hover , #js:hover, #bulma:hover, #php:hover, #nodeJs:hover{
+    box-shadow: 0 0 1rem #46e880
+}
+
+#tooltip{
+    display: none;
+    color: #46e880;
+    font-size: 18px;
+}
+
+#projetos {
+    background-color: #131327;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    margin: 60px auto;
+    box-shadow: 0 0 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#projetos h1{
+    align-items: center;
+    text-align: center;
+    color: #46e880;
+    font-size: 20px;
+}
+
+.proj {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.projeto0, .projeto1, .projeto2{
+    width: 400px;
+    height: 200px;
+    background-color: #444654;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projeto0:hover, .projeto1:hover, .projeto2:hover{
+    box-shadow: 0 0 1rem #46e880
+}
+
+.projeto0 h2, .projeto1 h2, .projeto2 h2{
+    color: #46e880;
+}
+
+
+

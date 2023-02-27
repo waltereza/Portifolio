@@ -1,0 +1,28 @@
+* {
+    font-family:'Poppins', sans-serif;
+}
+
+footer {
+    width: 100%;
+    background-color: #131327;;
+    box-shadow: 0 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    bottom: 0;
+}
+
+footer h1{
+    color: #46e880;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+@media (max-width: 480px) {
+    footer h1{
+        font-size: 16px;
+    }
+}
